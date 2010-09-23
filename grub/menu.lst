@@ -1,0 +1,8 @@
+
+default 0
+timeout 0
+
+title SmileOS :-)
+	root (fd0)
+	kernel /kernel.bin
+
