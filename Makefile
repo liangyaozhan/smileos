@@ -40,7 +40,7 @@ cimg floppy.img:
 	
 	dd if=/dev/zero of=./floppy.img bs=1024 count=1440
 	$(MKFS) -F floppy.img
-	chmod 666 floppy.img
+	chmod 644 floppy.img
 
 	sudo mount -o loop floppy.img floppy/
 	cp -r grub floppy
