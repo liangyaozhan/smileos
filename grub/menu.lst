@@ -1,6 +1,6 @@
 
 default 0
-timeout 0
+timeout 3
 
 title SmileOS :-)
 	root (fd0)
