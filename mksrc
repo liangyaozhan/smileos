@@ -1,0 +1,18 @@
+#!/bin/sh
+# Created @ 14.10.2009 by TheFox@fox21.at
+# Simplify your life with small agents ;)
+
+BASEDIR="src"
+
+if [ "$1x" == "x" ]; then
+	exit 1
+fi
+
+HFILE="$1.h"
+CFILE="$1.c"
+
+echo "create $BASEDIR/$1 (.c .h)"
+touch $BASEDIR/$HFILE $BASEDIR/$CFILE
+chmod 666 $BASEDIR/$HFILE $BASEDIR/$CFILE
+ls -la $BASEDIR/$1.*
+
