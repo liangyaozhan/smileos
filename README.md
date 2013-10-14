@@ -2,7 +2,7 @@
 
 ## Make
 To compile the kernel you must have `sudo` permissions for `mount`.
-Type `make` into your shell to compile the kernel. After that you get a `floppy.img`. This image file can linked to __bochs__ or __Virtualbox__.
+Type `make` into your shell to compile the kernel. After that you get a `floppy.img`. This image file can linked to **bochs** or **Virtualbox**.
 
 ## License
 Copyright (C) 2013 Christian Mayer (<thefox21at@gmail.com> - <http://fox21.at>)
